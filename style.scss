@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(
+    farthest-corner at 30vw 20vh,
+    rgb(64, 116, 184) 1%,
+    rgb(48, 224, 210) 100%
+  );
+}
+.navbar {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  opacity: 0.9;
+  height: 40px;
+  left: 0px;
+  font-size: 26px;
+  text-align: center;
+  color: white;
+  background: url(/icon_praktech.png) rgb(141, 131, 131) 20px no-repeat;
+  background-size: 100px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  z-index: 1;
+}
